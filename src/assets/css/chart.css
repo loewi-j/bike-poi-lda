@@ -1,0 +1,13 @@
+.container, .chart-poi, .chart, .page-line, .page-line {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.chart {
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+}
+.anchorBL{
+    display:none;
+}
