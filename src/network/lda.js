@@ -1,9 +1,10 @@
 import {request} from "./request";
 
-export function getLDAHeatMap() {
+export function getLDAHeatMap(type) {
   return request({
     method: 'get',
     url: 'cityBike/heatmap',
+    params: {type}
   })
 }
 
